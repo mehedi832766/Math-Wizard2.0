@@ -46,7 +46,12 @@ while(c != 4):
         print("Root: ",x2)
     elif c==2:
         print("Bi-section Method")
-        e=x*(exp(x))-1
+        print("a*x**3 + b*x**2+c*x+d")
+        a=int(input("enter a="))
+        b=int(input("enter b="))
+        c=int(input("enter c="))
+        d=int(input("enter d="))
+        e=a*x**3 + b*x**2 + c*x +d
         print("f(x) : ",e)
         print("Choose two number such that f(n1)*f(n2)<0")
         n1=int(input("enter n1="))
@@ -104,7 +109,7 @@ while(c != 4):
         di3=1
         ct=1
         t=[]
-        while(di1>0.00001 and di2>0.00001 and di3>0.00001):
+        while(di1>0.0001 and di2>0.0001 and di3>0.0001):
             x2=x1
             y2=y1
             z2=z1
