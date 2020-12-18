@@ -9,6 +9,7 @@ from tabulate import tabulate
 from sympy import*
 from scipy.misc import derivative
 x=Symbol('x')
+print("Math Wizard")
 c=5
 while(c != 4):
     print("1.Newton-Ruphson Method")
