@@ -8,6 +8,7 @@ from array import*
 from tabulate import tabulate
 from sympy import*
 from scipy.misc import derivative
+import numpy as np
 x=Symbol('x')
 print("Math Wizard")
 c=5
